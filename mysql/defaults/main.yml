@@ -1,0 +1,4 @@
+---
+memory: "{{ ansible_memtotal_mb/2 }}"
+database_pass: 123456
+database_allow: "%"
